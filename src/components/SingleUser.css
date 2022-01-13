@@ -1,0 +1,11 @@
+.single-user {
+   border: 1px solid lightgray;
+   padding: 5px 10px;
+   border-radius:5px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.single-user p {
+   font-size: 18px;
+   font-weight: 500;
+}

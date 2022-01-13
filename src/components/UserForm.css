@@ -1,0 +1,48 @@
+.card {
+   padding: 50px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+   min-width: 350px;
+}
+.user-form {
+   margin-bottom: 20px;
+}
+
+.user-form__label {
+   display: block;
+   font-size: 18px;
+   font-weight: 500;
+   margin-bottom: 5px;
+}
+
+.user-form__input {
+   padding: 8px 10px;
+   border: 1px solid lightgrey;
+   border-radius: 5px;
+   width: 100%;
+   margin-bottom: 10px;
+}
+.user-form__input:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+   outline: none;
+}
+
+.user-form button {
+   border: none;
+   padding: 12px 20px;
+   color: #ffffff;
+   background-color:#9122ff;
+   font-size: 14px;
+   font-weight: 600;
+   text-transform: uppercase;
+   cursor: pointer;
+   margin-top: 10px;
+   border-radius: 3px;
+   transition: all 1 ease-in-out;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.user-form button:hover {
+   background-color: #7800f0;
+}
