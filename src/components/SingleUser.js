@@ -1,8 +1,8 @@
 import "./SingleUser.css";
-const SingleUser = () => {
+const SingleUser = (props) => {
   return (
     <div className="single-user">
-      <p>User(30 years Old)</p>
+      <p>{`${props.name} (${props.age} years Old)`}</p>
     </div>
   );
 };

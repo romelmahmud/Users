@@ -16,6 +16,7 @@ const UserForm = (props) => {
   const userFromHandler = (e) => {
     e.preventDefault();
     const userData = {
+      key: Math.random().toString(),
       userName: userName,
       age: userAge,
     };
