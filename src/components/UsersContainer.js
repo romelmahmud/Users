@@ -1,7 +1,7 @@
 import SingleUser from "./SingleUser";
 import "./UsersContainer.css";
 
-const UsersContainer = () => {
+const UsersContainer = (props) => {
   return (
     <div className="card">
       <SingleUser />;
