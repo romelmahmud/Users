@@ -1,0 +1,20 @@
+.invalid-modal {
+   z-index:9;
+   position: absolute;
+   background-color: white;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   padding: 0 30px 30px 30px;
+   
+}
+.modal-heading {
+   color:#7800f0;
+   text-align: center;
+   font-weight: 700;
+}
+
+.modal-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

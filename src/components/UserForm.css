@@ -28,7 +28,7 @@
    outline: none;
 }
 
-.user-form button {
+button {
    border: none;
    padding: 12px 20px;
    color: #ffffff;
@@ -43,6 +43,6 @@
    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.user-form button:hover {
+ button:hover {
    background-color: #7800f0;
 }

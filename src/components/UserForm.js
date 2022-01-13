@@ -1,9 +1,11 @@
 import { useState } from "react";
+import InvalidModel from "./InvalidModel";
 import "./UserForm.css";
 
 const UserForm = (props) => {
   const [userName, setUserName] = useState("");
   const [userAge, setUserAge] = useState("");
+  //   const [showInvalidModel, setShowInvalidModel] = useState(false);
 
   const nameInputHandler = (e) => {
     setUserName(e.target.value);
@@ -15,6 +17,9 @@ const UserForm = (props) => {
 
   const userFromHandler = (e) => {
     e.preventDefault();
+    //  if (userAge < 0 || userName === "") {
+    //    setShowInvalidModel(true);
+    //  }
     const userData = {
       key: Math.random().toString(),
       userName: userName,
@@ -25,9 +30,13 @@ const UserForm = (props) => {
     setUserName("");
     setUserAge("");
   };
+  //   {
+  //     showInvalidModel && <InvalidModel />;
+  //   }
 
   return (
     <div className="user-form card">
+      {/* {!showInvalidModel && ( */}
       <form onSubmit={userFromHandler}>
         <div>
           <label className="user-form__label">UserName</label>
@@ -51,6 +60,7 @@ const UserForm = (props) => {
           <button type="submit">Add User</button>
         </div>
       </form>
+      {/*  )} */}
     </div>
   );
 };

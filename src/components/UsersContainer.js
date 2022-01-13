@@ -3,11 +3,7 @@ import "./UsersContainer.css";
 
 const UsersContainer = (props) => {
   if (props.userData.length === 0) {
-    return (
-      <div className="card">
-        <p className="no-user-found">no User Found</p>
-      </div>
-    );
+    return <div className="card"></div>;
   }
   return (
     <div className="card">
